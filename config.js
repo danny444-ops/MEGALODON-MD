@@ -8,14 +8,14 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
 
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
-    PREFIX: process.env.PREFIX || ".",  // Command prefix (e.g., "., / ! * - +")
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~xEwBiayL#MAwyaPwl5NQgQn74HuzO11GP7u8Ad1BWdo9i7voFZ_I",  // Your bot's session ID (keep it secure)
+    PREFIX: process.env.PREFIX || "#",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || "junior",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -41,7 +41,7 @@ module.exports = {
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_BOT: process.env.ANTI_BOT || "true",
     //antibot true or false
-    ANTI_DELETE: process.env.ANTI_DELETE || "true",
+    ANTI_DELETE: process.env.ANTI_DELETE || "false",
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
@@ -72,6 +72,6 @@ module.exports = {
     
     WELCOME: process.env.WELCOME || "false",
 
-    GOODBYE: process.env.GOODBYE || "true",
+    GOODBYE: process.env.GOODBYE || "false",
    
 };
